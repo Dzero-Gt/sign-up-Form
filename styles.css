@@ -80,6 +80,7 @@ a {
   justify-content: center;
   height: 100vh;
   gap: 50px;
+  padding-right: 10vw;
 }
 
 .heading-info {
@@ -122,7 +123,7 @@ button {
   margin-top: 30px;
   border-radius: 6px;
   border: 0;
-  background-color: rgb(45, 97, 59);
+  background-color: #596D48;
   color: white;
   font-size: 18px;
 }
@@ -130,8 +131,18 @@ button {
 input:focus {
   border : 2px solid rgb(87, 87, 200);
   outline: none;
+  box-shadow: 4px 4px 4px rgba(130, 112, 112, 0.411)
 }
 
 input:invalid:not(:focus):not(:placeholder-shown) {
   border : 2px solid red
+}
+
+h2 {
+  margin: 0;
+}
+
+#alert {
+  height: 30px;
+  color: red;
 }
